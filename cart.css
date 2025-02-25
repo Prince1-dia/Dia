@@ -1,0 +1,184 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.amazon-logo{
+    width: 120px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.checkout-text{
+    font-family: calibri;
+    margin-top: 20px;
+}
+
+.checkout-text span{
+    color: #007185;
+}
+
+.lock-icon{
+    width: 24px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.section-1{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.first-main{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.review{
+    font-size: 1.5rem;
+    font-family: arial;
+    font-weight: 600;
+}
+
+.Delivery-items{
+    border: 1px solid rgb(126, 123, 123);
+    width: 800px;
+    border-radius: 5px;
+
+}
+
+.delivery-date{
+    color: green;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: arial;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.delivery-goods{
+    display: flex;
+    margin-left: 20px;
+    /* justify-content: space-between; */
+    margin-top: 30px;
+}
+.ordered-good{
+    width: 150px;
+    height: 150px;
+}
+
+.quantity-div{
+    /* width: 500px; */
+    margin-left: 70px;
+}
+
+.qauntity-name{
+    font-weight: bold;
+    font-family: arial;
+    font-size: 1 rem; 
+}
+
+.quantity-price{
+    color: brown;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 10px;
+}
+
+.quantity{
+    font-family: arial;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;   
+}
+
+.quantity span{
+    color: blue;
+}
+
+.quantity span:hover{
+    color: brown; 
+}
+
+.delivery-option{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.delivery-option-text{
+    font-weight: bold;
+    font-family: arial;
+    font-size: 1.2rem;
+}
+
+.delivery-option div{
+    display: flex;
+}
+
+.delivery-option input{
+    width: 20px;
+    cursor: pointer;
+    border: 2px solid orange;
+    padding: 2px 0;
+    margin-right: 7px;
+}
+
+.delivery-option-date{
+    font-size: 1rem;
+    font-family: arial;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.delivery-option-date span{
+    color: black;
+}
+
+.summary-main{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 130px;
+    margin-left: 0px;
+}
+
+.order-summary-text{
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: arial;
+    margin-left: 20px;
+}
+
+.summary-div{
+    padding: 20px;
+
+}
+
+.summary-div div{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.summary-price{
+    text-align: right;
+}
+
+.order-total-div p{
+    color: brown;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.place-order{
+ width: 80%;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 7px;
+    border: none;
+}
